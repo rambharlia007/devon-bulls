@@ -7,7 +7,7 @@ var AppViewModel = function () {
 
         var url = new URL(window.location.href);
 
-        url = new URL("http://marketstar-001-site1.ftempurl.com?exchange=Nfo&symbol=BHARTIARTL19MARFUT&tradetype=BUY&qty=1700&price=313.9&triggerprice=313.6&sl=2.5&target=3.4");
+      //  url = new URL("http://marketstar-001-site1.ftempurl.com?exchange=Nfo&symbol=BHARTIARTL19MARFUT&tradetype=BUY&qty=1700&price=313.9&triggerprice=313.6&sl=2.5&target=3.4");
 
         var kite = new KiteConnect("wagq0ctros2rvgdz");
         var exchange = url.searchParams.get("exchange").toUpperCase();
